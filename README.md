@@ -1,2 +1,6 @@
 # ng-phoneCat
-A Quick POC developed based on the tutorial provdied at official website of Angular.js.
+A Phone Gallery App developed based on the tutorial provided at the official website of [Angular.js](https://docs.angularjs.org/tutorial)
+
+###Demo   
+
+See [the demo page](https://veercg.github.io/ng-phoneCat) for a demo of the App.
