@@ -1,18 +1,20 @@
 <div class="container-fluid">
   <div class="row">
-    <div class="col-md-2">
+    <div class="col-xs-12">
       <!--Sidebar content-->
-
-      Search: <input ng-model="query">
-
-      Sort by:
-      <select ng-model="orderProp">
-        <option value="name">Alphabetical</option>
-        <option value="age">Newest</option>
-      </select>
-      {{orderProp}}
+      <div class="row col-xs-6">
+        Search: <input ng-model="query">
+      </div>
+      
+      <div class="row col-xs-6" style="text-align:right">
+          Sort by:
+          <select ng-model="orderProp">
+            <option value="name">Alphabetical</option>
+            <option value="age">Newest</option>
+          </select>
+      </div>
     </div>
-    <div class="col-md-10">
+    <div class="col-xs-12" style="margin-top:10px;">
       <!--Body content-->
 
       <ul class="phones">

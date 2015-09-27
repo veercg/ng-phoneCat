@@ -1,12 +1,17 @@
 
-
+<div class=" col-md-4">
 <div class="phone-images">
   <img ng-src="{{img}}"
        class="phone"
        ng-repeat="img in phone.images"
        ng-class="{active:mainImageUrl==img}">
 </div>
+<div style="text-align:center">
+    <button ng-click="buy(phone.name)" class="btn btn-warning btn-lg">Buy Now</button>
+</div>
+</div>
 
+<div class="col-md-8">
 <h1>{{phone.name}}</h1>
 
 <p>{{phone.description}}</p>
@@ -17,7 +22,6 @@
     <img ng-src="{{img}}" ng-mouseenter="setImage(img)">
   </li>
 </ul>
-<button ng-click="buy(phone.name)">Buy Now</button>
 
 <ul class="specs">
   <li>
@@ -127,3 +131,4 @@
 
 </ul>
 
+</div>
